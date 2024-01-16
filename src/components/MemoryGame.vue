@@ -61,14 +61,14 @@ function onClickCard(evt: MouseEvent, card: Card) {
 function evaluateMatch(cardName1: string, cardName2: string) {
   if (cardName1 === cardName2) {
     // do nothing yet
-    if (clickedCard1?.parentElement && clickedCard2?.parentElement) {
-      clickedCard1.parentElement.style.visibility = 'hidden'
-      clickedCard2.parentElement.style.visibility = 'hidden'
-      setTimeout(() => {
+    setTimeout(() => {
+      if (clickedCard1?.parentElement && clickedCard2?.parentElement) {
+        clickedCard1.parentElement.style.visibility = 'hidden'
+        clickedCard2.parentElement.style.visibility = 'hidden'
         clickedCard1 = null
         clickedCard2 = null
-      }, 500)
-    }
+      }
+    }, 500)
   } else {
     setTimeout(() => {
       if (clickedCard1 && clickedCard2) {

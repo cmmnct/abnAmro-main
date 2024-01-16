@@ -1,12 +1,14 @@
 <template>
     <div>
-
+<h1>{{props.animal.name}}</h1>
     </div>
 </template>
 
 <script setup lang="ts">
 import Animal from './zooList.vue'
-const animal = defineModel({ type: Animal, required: true });
+const props = defineProps({
+  animal: { type: Animal, required: true }
+})
 
 
 
