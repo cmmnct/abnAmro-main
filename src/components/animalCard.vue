@@ -4,7 +4,7 @@
     <hr />
     <img :src="`/assets/img/${animal.type}.jpg`" />
     <p>
-      {{ animal.type }} (<span class="latin">{{ animal.latin }}</span
+      <span class="type">{{ animal.type }}</span> (<span class="latin">{{ animal.latin }}</span
       >)
     </p>
     <p></p>
@@ -14,6 +14,7 @@
 </template>
 
 <script setup lang="ts">
+
 type Animal = {
   name: string
   type: string
@@ -32,7 +33,12 @@ const food = [
   'catfood',
   'lettuce',
   'vegetables',
-  'peel of vegetables and fruits'
+    'peel of vegetables and fruits',
+    'grass',
+    'leaves',
+    'herbs',
+    'scrub',
+    'heather'
 ]
 
 function returnDiet(arr: []): string {
@@ -57,9 +63,16 @@ function returnDiet(arr: []): string {
   width: 64px;
   aspect-ratio: 1/1;
   float: left;
-  margin: 10px;
+  margin: 5px;
 }
 .latin {
   font-style: italic;
+}
+.type {
+    font-weight: bold;
+}
+
+hr {
+    margin-bottom: 10px;
 }
 </style>
