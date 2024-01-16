@@ -9,18 +9,39 @@
     </p>
     <p></p>
     <p>{{ animal.since }}</p>
-    <p>{{ animal.diet }}</p>
+    <p>{{ returnDiet(animal.diet) }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
-const animal = defineProps({
-  name: String,
-  latin: String,
-  type: String,
-  since: Number,
-  diet: Array
-})
+type Animal = {
+  name: string
+  type: string
+  latin: string
+  since: number
+  diet: []
+}
+
+const animal = defineProps<Animal>()
+const food = [
+  'rice',
+  'wheat',
+  'corn',
+  'meat',
+  'dogfood',
+  'catfood',
+  'lettuce',
+  'vegetables',
+  'peel of vegetables and fruits'
+]
+
+function returnDiet(arr: []): string {
+  let myFood = ''
+  arr.forEach((item) => {
+    myFood += ` ${food[item]}`
+  })
+  return myFood
+}
 </script>
 
 <style scoped>
