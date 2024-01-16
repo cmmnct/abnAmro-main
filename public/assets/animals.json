@@ -1,0 +1,230 @@
+[
+        {
+            "name": "duckie",
+            "type": "duck",
+            "latin": "duck",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "puss",
+            "type": "kitten",
+            "latin": "kitten",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Big J",
+            "type": "piglet",
+            "latin": "piglet",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Spot",
+            "type": "puppy",
+            "latin": "puppy",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Jenny",
+            "type": "calf",
+            "latin": "calf",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Valentine",
+            "type": "veal",
+            "latin": "veal",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "snooze",
+            "type": "lamb",
+            "latin": "lamb",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Tenacious D",
+            "type": "rooster",
+            "latin": "rooster",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Champ",
+            "type": "horse",
+            "latin": "horse",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Speedy",
+            "type": "mouse",
+            "latin": "mouse",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Bubbles",
+            "type": "dog",
+            "latin": "dog",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Whiskers",
+            "type": "cat",
+            "latin": "cat",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Mrs Feathers",
+            "type": "goose",
+            "latin": "goose",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Chewy",
+            "type": "goat",
+            "latin": "goat",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Mr Woolezzz",
+            "type": "sheep",
+            "latin": "sheep",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Big bad John",
+            "type": "pig",
+            "latin": "pig",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Rosemary",
+            "type": "cow",
+            "latin": "cow",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "fluffy",
+            "type": "chick",
+            "latin": "chick",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "Mrs knowitall",
+            "type": "hen",
+            "latin": "hen",
+            "since": 2020,
+            "diet": [
+                1,
+                5,
+                8,
+                3
+            ]
+        }
+    ]
