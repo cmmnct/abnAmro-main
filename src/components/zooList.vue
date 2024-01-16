@@ -24,8 +24,10 @@
         </tr>
       </tbody>
     </table>
+
+    <AnimalCard v-for="(animal, index) in animals" :key="index" v-bind="animal" />
    <div>
-    <AnimalCard v-for="(card, index) in animals" :key="index"  :animal="card"/>
+  
    </div> 
 
 
