@@ -24,14 +24,18 @@
         </tr>
       </tbody>
     </table>
+    
+
+
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, watchEffect } from 'vue'
 import type { Ref } from 'vue'
+import AnimalCard from './animalCard.vue'
 
-type Animal = {
+export type Animal = {
   name: string
   type: string
   latin: string
